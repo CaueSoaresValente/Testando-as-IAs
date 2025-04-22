@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css"/>
+    <title>Tela de Login</title>
+    <style>
+        body {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
+            background-color: #1b1c30;
+            margin: 0;
+            font-family: Arial, sans-serif;
+            color: #fff;
+        }
+        .login-container {
+            text-align: center;
+        }
+        .login-container img {
+            width: 150px;
+        }
+        .login-container h2 {
+            color: #fff;
+        }
+        .login-container input {
+            display: block;
+            width: 100%;
+            padding: 10px;
+            margin: 10px 0;
+            background-color: #292a38;
+            border: none;
+            border-radius: 5px;
+            color: #96979e;
+        }
+        .login-container a {
+            color: aquamarine;
+            text-decoration: none;
+        }
+        .login-container button {
+            display: block;
+            width: 100%;
+            padding: 10px;
+            margin-top: 20px;
+            background-color: #77c97c;
+            border: none;
+            border-radius: 5px;
+            color: #1b1c30;
+            font-weight: bold;
+            cursor: pointer;
+        }
+        .login-container p {
+            margin: 10px 0;
+        }
+    </style>
+</head>
+<body>
+    <div class="login-container">
+        <img src="imagens/logo.png" alt="Logo">
+        <h2>Login</h2>
+        <input type="email" placeholder="E-mail">
+        <input type="password" placeholder="Senha">
+        <p>Ainda não tem uma conta? <a href="#">Crie uma</a></p>
+        <button>Entrar</button>
+    
+        <div class="mudar">
+            <a href="http://127.0.0.1:5501/index.html">DeepSeek</a>
+            <a href="http://127.0.0.1:5501/chat.html">ChatGPT</a>
+        </div>
+
+    </div>
+</body>
+</html>
